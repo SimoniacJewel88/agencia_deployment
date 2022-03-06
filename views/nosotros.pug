@@ -1,0 +1,38 @@
+extends ./layout/index
+
+block contenido
+    main(class="container mt-5")
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices ipsum turpis, id viverra magna condimentum ultrices. Sed sapien magna, efficitur vel laoreet eget, placerat ac orci. Donec in urna massa. Nam bibendum et velit id sollicitudin. Mauris sollicitudin dignissim lorem ut euismod.
+
+                p Aenean commodo hendrerit tellus non sollicitudin. Sed pulvinar vitae sem vitae congue. Nulla mollis lacus dui, viverra malesuada enim scelerisque quis. Morbi aliquet interdum leo at fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ac leo eget metus tempus suscipit.
+
+                p In scelerisque mi ac fringilla pulvinar. Integer rhoncus lorem vitae mi gravida dapibus. Nulla sodales id arcu quis aliquam. Duis laoreet turpis pretium massa fermentum, nec sagittis lectus auctor. Vestibulum rutrum nulla nec ultricies viverra. Aliquam quis nibh porta, condimentum orci vitae, rutrum purus. Nunc at tristique purus.
+    
+    div(class="listado-iconos")
+        div(class="container mt-5 py-5 text-center")
+            div(class="row")
+                div(class="col-md-4")
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2(class="mb-4") Seguridad
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices ipsum turpis, id viverra magna condimentum ultrices. Sed sapien magna.
+                
+                div(class="col-md-4")
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2(class="mb-4") Destinos
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices ipsum turpis, id viverra magna condimentum ultrices. Sed sapien magna.
+
+                div(class="col-md-4")
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2(class="mb-4") Precios
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices ipsum turpis, id viverra magna condimentum ultrices. Sed sapien magna.
+        
+    
+
+//- p #{textoViajes}
+//- p= textoViajes
